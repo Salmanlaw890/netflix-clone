@@ -1,0 +1,86 @@
+.LoginScreen {
+    position: relative;
+    height: 100%;
+    background: url('https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width: 150px;
+}
+
+.signIn_button {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.login_gradient {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top,
+            rgba(0, 0, 0, 0.8) 0,
+            rgba(0, 0, 0, 0) 60%,
+            rgba(0, 0, 0, 0.8) 100%);
+
+}
+
+.content {
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    left: 18%;
+
+}
+
+.content>h1 {
+    font-size: 2.125rem;
+    margin-bottom: 20px;
+}
+
+.content>h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.content>h3 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.login_input>form>input {
+    padding: 25px 10px;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 60%;
+    max-width: 600px;
+}
+
+.input_button {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
